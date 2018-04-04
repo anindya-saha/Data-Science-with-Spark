@@ -52,3 +52,4 @@ Temporary Items
 .ipynb_checkpoints/
 __pycache__
 model/
+spark-warehouse/
