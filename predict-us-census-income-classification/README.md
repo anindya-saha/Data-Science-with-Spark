@@ -1,10 +1,8 @@
 
-Have you ever wondered how Machine Learning Pipelines are built at scale? How can we deploy our ML models over a distributed cluster of machines so that our ML application scale horizontally? Do you want to convert your scikit-learn and pandas based ML workflow and take it to scale using Spark? Would it have been better if you had an working end-to-end application to refer? Then Read On...  
+Have you ever wondered how Machine Learning Pipelines are built at scale? How can we deploy our ML models over a distributed cluster of machines so that our ML application scale horizontally? Do you want to convert your scikit-learn and pandas based ML workflow and take it to scale using Spark? Would it have been better if you had an working end-to-end application to refer? Then Read On the notebook [predict-us-census-income.ipynb](predict-us-census-income.ipynb) in this same folder.
 
 `
 @author: Anindya Saha
-`
-`
 @email: mail.anindya@gmail.com
 `
 
@@ -34,7 +32,7 @@ Even more: https://spark.apache.org/docs/latest/
 
 ## Problem Statement
 
-In this notebook, we try to predict a person's income is above or below 50K$/yr given based on features such as workclass, no of years of education, occupation, relationship, marital status, hours worked per week, race, sex etc. But the catch is here we will do entirely in PySpark. We will use the most basic model of Loagistic Regression here. The goal of the notebook is not to get too fancy with the choice of the Algorithms but its more on how can you achieve or at least try to achieve what you could do using scikit-learn and pandas.
+In this [notebook](predict-us-census-income.ipynb), we try to predict a person's income is above or below 50K$/yr given based on features such as workclass, no of years of education, occupation, relationship, marital status, hours worked per week, race, sex etc. But the catch is here we will do entirely in PySpark. We will use the most basic model of Loagistic Regression here. The goal of the notebook is not to get too fancy with the choice of the Algorithms but its more on how can you achieve or at least try to achieve what you could do using scikit-learn and pandas.
 
 ## BINARY CLASSIFICATION : LOGISTIC REGRESSION
 
@@ -50,7 +48,7 @@ Note that the dataset is made up of categorical and continuous features. It also
 
 The continuous columns are: age, education_num, capital_gain, capital_loss, hours_per_week.
 
-This Dataset was obtained from the UCI repository, it can be found on:
+This Dataset was obtained from the UCI repository, it can be found at:
 
 https://archive.ics.uci.edu/ml/datasets/census+income  
 http://mlr.cs.umass.edu/ml/machine-learning-databases/adult/
